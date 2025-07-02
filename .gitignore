@@ -10,6 +10,11 @@
 *.dll
 *.dylib
 
+# build folders
+build
+build*
+cmake-build*
+
 # Qt-es
 object_script.*.Release
 object_script.*.Debug
@@ -52,3 +57,13 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# AtH stuff
+*.swp
+debug/
+saves/
+
+# MinGW generated files
+*.Debug
+*.Release
+
